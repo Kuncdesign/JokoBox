@@ -1,0 +1,607 @@
+.ikon {
+  display: inline-block;
+  margin-bottom: -8px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 8px;
+  background-color: transparent;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.ikon.size2 {
+  width: 40px;
+  height: 40px;
+}
+.ikon.size2 {
+    width: 40px;
+    height: 40px;
+}.ikon.size3 {
+    width: 54px;
+    height: 54px;
+}
+.ikon.size4 {
+    width: 72px;
+    height: 72px;
+}
+.ikon.none,.ikonnone{display:none!important}
+.thumb.ikon {
+    width: 60px;
+    height: 60px;
+    margin: 16px;
+    flex-shrink: 0;
+    border: 2px solid var(--tema);
+    border-radius: 8px;
+    background-color: var(--temaLight);
+}
+.ikon.ngiwo,[data-toolcategory].expand .ikon{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path style=" fill:%23aaa;" d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"></path></svg>');
+}
+.ikon.transparent{background-image:none}
+.ikon.logoBukuLirik {
+  background-color:var(--tema);
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="100%" height="100%" version="1.1"><path fill="none" stroke-width="1" stroke="white" d="M 4 6 L 4 21 L 13 21 L 13 6 Z M 13 3 L 13 23 L 24 21 L 24 5 Z "/><path fill="white"  d="M 6 8 L 6 19 L 9 19 Q 11 19 11 16 Q 11 13 9 13 Q 11 13 11 11 Q 11 8 8 8 Z M 8 9 Q 9 9 9 10 L 9 11 Q 9 12 8 12 L 8 10 Z M 8 14 Q 9 14 9 15 L 9 16 Q 9 17 8 17 Z"/><path fill="white"  d="M 16 6 L 16 20 L 22 19 L 22 17 L 18 17 L 18 7 Z"/></svg>');
+ 
+ 
+}.ikon.enter {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/></svg>')
+}
+.ikon.tglEdit {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path style=" fill:%23bbb" d="M5 7 5 18 7 20 18 20 20 18 20 7 18 5 16 5 16 3 14 3 14 5 11 5 11 3 9 3 9 5 7 5ZM7 8 18 8 18 17 7 17ZM13 12 16 12 16 15 13 15Z"/></svg>')
+}
+.ikon.call {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path style=" fill:%23bbb" d="M 0 0 L 24 24 M 19.9 20.8 Q 16.8 20.8 13.8 19.4 T 7.8 16 Q 5.7 13 4.4 10 T 3 3.8 Q 3 3.4 3.3 3 T 4 2.8 H 8.1 Q 8.4 2.8 8.7 3 T 9.1 3.5 L 9.7 7 Q 9.8 7.5 9.7 7.7 T 9.4 8.2 L 7 10.7 Q 7.5 11.6 8.2 12.4 T 9.7 14.1 Q 10.4 14.9 11.3 15.5 T 13.1 16.8 L 15.4 14.4 Q 15.7 14.2 16 14.1 T 16.8 14 L 20.2 14.7 Q 20.6 14.8 20.8 15.1 T 21 15.7 V 19.7 Q 21 20.1 20.7 20.4 T 19.9 20.8 Z Z Z Z Z"/></svg>')
+}
+.ikon.visibility {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path style=" fill:%23bbb" d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>')
+}
+.ikon.bisnis {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path style=" fill:%23bbb" d="M4 10v7h3v-7H4zm6 0v7h3v-7h-3zM2 22h19v-3H2v3zm14-12v7h3v-7h-3zm-4.5-9L2 6v2h19V6l-9.5-5z"/></svg>')
+}
+.ikon.bN {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path style=" fill:%23fff" d="M 10.8 4 L 2 4 L 2 21 L 10.8 21 Z M 11 1 L 11 23 L 22 21 L 22 4 Z M 4 6 L 7 6 C 8 6 9 7 9 9 C 9 12 7 12 7 12 C 9 12 11 14 10 17 C 9 19 8 19 4 19 Z M 13 21 L 13 5 L 19 13 L 19 7 L 20 6 L 20 19 L 15 14 L 15 19 Z M 6 7 C 7 8 7 10 6 11 Z M 6 13 C 8 13 8 17 6 17 Z"/></svg>')
+}
+.ikon.pesan {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path style=" fill:%23bbb" d="M 0 0 L 24 24 M 0 3 L 20 3 L 23 6 L 23 19 L 21 21 L 5 21 L 3 19 L 3 8 Z M 6 7 L 6 10 L 20 10 L 20 7 Z M 6 13 L 6 16 L 17 16 L 17 13 Z"/></svg>')
+}
+.ikon.calculate {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M13.03,7.06L14.09,6l1.41,1.41 L16.91,6l1.06,1.06l-1.41,1.41l1.41,1.41l-1.06,1.06L15.5,9.54l-1.41,1.41l-1.06-1.06l1.41-1.41L13.03,7.06z M6.25,7.72h5v1.5h-5 V7.72z M11.5,16h-2v2H8v-2H6v-1.5h2v-2h1.5v2h2V16z M18,17.25h-5v-1.5h5V17.25z M18,14.75h-5v-1.5h5V14.75z"/></svg>')
+}
+.ikon.paraPelanggan {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="%23bbb"  d="M 18.5 0 C 16.566406 0 15 1.566406 15 3.5 C 15 5.433594 16.566406 7 18.5 7 C 20.433594 7 22 5.433594 22 3.5 C 22 1.566406 20.433594 0 18.5 0 Z M 10.5 1 C 9.121094 1 8 2.121094 8 3.5 C 8 4.878906 9.121094 6 10.5 6 C 11.878906 6 13 4.878906 13 3.5 C 13 2.121094 11.878906 1 10.5 1 Z M 4 2 C 2.894531 2 2 2.894531 2 4 C 2 5.105469 2.894531 6 4 6 C 5.105469 6 6 5.105469 6 4 C 6 2.894531 5.105469 2 4 2 Z M 4 7 C 2.300781 7 1 8.300781 1 10 L 1 17 L 6 17 L 6 20 L 12 20 L 12 24 L 23 24 L 23 14.8125 C 23 14.414063 22.90625 13.6875 22.90625 13.6875 C 22.605469 11.085938 20.300781 9 17.5 9 C 16 9 14.6875 9.601563 13.6875 10.5 C 13.085938 9 11.699219 8 10 8 C 8.800781 8 7.707031 8.605469 6.90625 9.40625 C 6.707031 8.105469 5.5 7 4 7 Z "/></svg>')
+}
+.ikon.backSpace {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-3 12.59L17.59 17 14 13.41 10.41 17 9 15.59 12.59 12 9 8.41 10.41 7 14 10.59 17.59 7 19 8.41 15.41 12 19 15.59z"/></svg>')
+}
+#inputFilter{background-repeat:no-repeat}
+.ikon.cari,#inputFilter{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"><g id="surface1"><path fill="%23bbb" d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z "></path></g></svg>')
+}
+.ikon.history{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"><path fill="%23bbb" d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM22 12c0 5.51-4.49 10-10 10S2 17.51 2 12h1c0 4.96 4.04 9 9 9s9-4.04 9-9-4.04-9-9-9C8.81 3 5.92 4.64 4.28 7.38c-.11.18-.22.37-.31.56L3.94 8H8v1H1.96V3h1v4.74c.04-.09.07-.17.11-.25.11-.22.23-.42.35-.63C5.22 3.86 8.51 2 12 2c5.51 0 10 4.49 10 10z"></path></svg>')
+}
+.ikon.bantuan{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"><path fill="%23bbb" d="M15.36 9.96c0 1.09-.67 1.67-1.31 2.24-.53.47-1.03.9-1.16 1.6l-.04.2H11.1l.03-.28c.14-1.17.8-1.76 1.47-2.27.52-.4 1.01-.77 1.01-1.49 0-.51-.23-.97-.63-1.29-.4-.31-.92-.42-1.42-.29-.59.15-1.05.67-1.19 1.34l-.05.28H8.57l.06-.42c.2-1.4 1.15-2.53 2.42-2.87 1.05-.29 2.14-.08 2.98.57.85.64 1.33 1.62 1.33 2.68zM12 18c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1zm0-15c-4.96 0-9 4.04-9 9s4.04 9 9 9 9-4.04 9-9-4.04-9-9-9m0-1c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"></path></svg>')
+}
+.ikon.wa {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39"><path fill="%2300E676" d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z"></path><path fill="%23fff" d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z"></path></svg>')
+}
+.ikon.darkMode {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="100%" height="100%" version="1.1"><g id="surface1" style=" fill:%23bbb"><path style=" " d="M 16 4 C 9.382813 4 4 9.382813 4 16 C 4 22.617188 9.382813 28 16 28 C 22.617188 28 28 22.617188 28 16 C 28 9.382813 22.617188 4 16 4 Z M 16 6 L 16 26 C 10.464844 26 6 21.535156 6 16 C 6 10.464844 10.464844 6 16 6 Z "></path></g></svg>')
+}
+.ikon.layers{
+
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"><g id="surface1" style=" fill:%23bbb"><path fill="" d="M 7 4 L 2 9 L 17 9 L 22 4 Z M 7 10 L 2 15 L 17 15 L 22 10 Z M 7 16 L 2 21 L 17 21 L 22 16 Z"></path></g></svg>')
+}
+.ikon.relasi{
+
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"><g id="surface1" style=" fill:%23bbb"><path fill="" d="M 12 2 A 1 1 0 0 0 12 11 A 1 1 0 0 0 12 2 M 4 16 C 8 21 17 21 20 16 C 17 12 7 12 4 16 M 2 1 L 22 1 L 22 23 L 19 23 L 19 20 L 5 20 L 5 23 L 2 23 Z"></path></g></svg>')
+}
+.ikon.priceList{
+
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"><g id="surface1" style=" fill:%23bbb"><path fill="" d="M 0 0 L 24 24 M 2 1 L 2 9 L 10 9 L 10 1 Z M 2 13 L 10 13 L 10 21 L 2 21 Z M 12 2 L 23 2 L 23 4 L 12 4 Z M 12 6 L 23 6 L 23 8 L 12 8 Z M 12 14 L 23 14 L 23 16 L 12 16 Z M 12 18 L 23 18 L 23 20 L 12 20 Z"></path></g></svg>')
+}
+.ikon.user{
+
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"><g id="surface1" style=" fill:%23bbb"><path fill="" d="M 0 0 L 24 24 M 12 2 A 1 1 0 0 0 12 13 A 1 1 0 0 0 12 2 M 2 19 C 7 24 17 24 22 19 C 17 14 7 14 2 19"></path></g></svg>')
+}
+.ikon.pelanggan{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"><g id="surface1" style=" fill:%23bbb"><path fill="" d="M 0 0 L 24 24 M 14 2 A 1 1 0 0 0 14 13 A 1 1 0 0 0 14 2 M 8 23 L 23 23 C 17 14 10 14 5 23 M 7 2 A 1 1 0 0 0 7 13 L 8 13 C 5 10 5 5 8 2 Z M 8 16 C 3 15 0 21 0 23 L 2 23 C 4 19 6 17 8 16 Z"></path></g></svg>')
+}
+.ikon.setting {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path d="M10.5 2C10 2 9.6 2.3 9.5 2.8L9.2 4.5C8.4 4.8 7.6 5.3 6.9 5.8L5.3 5.2C4.8 5.1 4.3 5.3 4.1 5.7L2.6 8.3C2.3 8.7 2.4 9.2 2.8 9.6L4.1 10.7C4 11.1 4 11.6 4 12 4 12.4 4 12.9 4.1 13.3L2.8 14.4C2.4 14.8 2.3 15.3 2.6 15.7L4.1 18.3C4.3 18.7 4.8 18.9 5.3 18.8L6.9 18.2C7.6 18.7 8.4 19.2 9.2 19.5L9.5 21.2C9.6 21.7 10 22 10.5 22L13.5 22C14 22 14.4 21.7 14.5 21.2L14.8 19.5C15.6 19.2 16.4 18.7 17.1 18.2L18.7 18.8C19.2 18.9 19.7 18.7 19.9 18.3L21.4 15.7C21.7 15.3 21.6 14.8 21.2 14.4L19.9 13.3C20 12.9 20 12.4 20 12 20 11.6 20 11.1 19.9 10.7L21.2 9.6C21.6 9.2 21.7 8.7 21.4 8.3L19.9 5.7C19.7 5.3 19.2 5.1 18.7 5.2L17.1 5.8C16.4 5.3 15.6 4.8 14.8 4.5L14.5 2.8C14.4 2.3 14 2 13.5 2L10.5 2zM12 8C14.2 8 16 9.8 16 12 16 14.2 14.2 16 12 16 9.8 16 8 14.2 8 12 8 9.8 9.8 8 12 8z"/></svg>')
+}
+.ikon.grey-setting {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb" d="M10.5 2C10 2 9.6 2.3 9.5 2.8L9.2 4.5C8.4 4.8 7.6 5.3 6.9 5.8L5.3 5.2C4.8 5.1 4.3 5.3 4.1 5.7L2.6 8.3C2.3 8.7 2.4 9.2 2.8 9.6L4.1 10.7C4 11.1 4 11.6 4 12 4 12.4 4 12.9 4.1 13.3L2.8 14.4C2.4 14.8 2.3 15.3 2.6 15.7L4.1 18.3C4.3 18.7 4.8 18.9 5.3 18.8L6.9 18.2C7.6 18.7 8.4 19.2 9.2 19.5L9.5 21.2C9.6 21.7 10 22 10.5 22L13.5 22C14 22 14.4 21.7 14.5 21.2L14.8 19.5C15.6 19.2 16.4 18.7 17.1 18.2L18.7 18.8C19.2 18.9 19.7 18.7 19.9 18.3L21.4 15.7C21.7 15.3 21.6 14.8 21.2 14.4L19.9 13.3C20 12.9 20 12.4 20 12 20 11.6 20 11.1 19.9 10.7L21.2 9.6C21.6 9.2 21.7 8.7 21.4 8.3L19.9 5.7C19.7 5.3 19.2 5.1 18.7 5.2L17.1 5.8C16.4 5.3 15.6 4.8 14.8 4.5L14.5 2.8C14.4 2.3 14 2 13.5 2L10.5 2zM12 8C14.2 8 16 9.8 16 12 16 14.2 14.2 16 12 16 9.8 16 8 14.2 8 12 8 9.8 9.8 8 12 8z"/></svg>')
+}
+.modeView .tombSaveEdit .ikon, .ikon.edit {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"> <path fill="%23bbb" d="m5 18.2 12.2-14.5 2.9 2.5-12 14.8zm-1.3 4.6.9-3.9 2.7 2.5zm14.3-20 2.2-2.4 2.7 2.5-2 2.5z" /></svg>')
+}
+.ikon.edit-putih{
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"> <path fill="white" d="m5 18.2 12.2-14.5 2.9 2.5-12 14.8zm-1.3 4.6.9-3.9 2.7 2.5zm14.3-20 2.2-2.4 2.7 2.5-2 2.5z" /></svg>')
+}
+.ikon.edit-orange{
+	  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="100%" height="100%" version="1.1"> <path fill="orange" d="m5 18.2 12.2-14.5 2.9 2.5-12 14.8zm-1.3 4.6.9-3.9 2.7 2.5zm14.3-20 2.2-2.4 2.7 2.5-2 2.5z" /></svg>')
+}
+.ikon.sampah {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 30 30" width="100%" height="100%"  version="1.1"><g id="surface1"><path fill="%23bbb"  d="M 13.59375 4 L 13.28125 4.28125 L 12.5625 5 L 6 5 L 6 7 L 7 7 L 7 25 C 7 26.644531 8.355469 28 10 28 L 22 28 C 23.644531 28 25 26.644531 25 25 L 25 7 L 26 7 L 26 5 L 19.4375 5 L 18.71875 4.28125 L 18.40625 4 Z M 14.4375 6 L 17.5625 6 L 18.28125 6.71875 L 18.59375 7 L 23 7 L 23 25 C 23 25.554688 22.554688 26 22 26 L 10 26 C 9.445313 26 9 25.554688 9 25 L 9 7 L 13.40625 7 L 13.71875 6.71875 Z M 11 11 L 11 22 L 13 22 L 13 11 Z M 15 11 L 15 22 L 17 22 L 17 11 Z M 19 11 L 19 22 L 21 22 L 21 11 Z "></path></g></svg>')
+}
+.ikon.choord {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb" d="M3 3 21 3 21 4 3 4ZM21 7 3 7 3 8 21 8ZM3 11 21 11 21 12 3 12ZM21 15 3 15 3 16 21 16ZM3 19 21 19 21 20 3 20ZM21 23 3 23 3 24 21 24ZM16 6A1 1 0 0016 10 1 1 0 0016 6M7 16A1 1 0 0011 15a1 1 0 00-4 1M7 23A1 1 0 0011 23 1 1 0 007 23M7 11A1 1 0 0011 11 1 1 0 007 11"/></svg>')
+}
+.ikon.medun {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1"><path d="M 6 10 L7.5 8.5 L12 13 L16.5 8.5 L18 10 L12 16 Z"/></g></svg>')
+}
+.ikon.munggah {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1"><path d="M 6 14 L 12 8 L 18 14 L 16.6 15.5  L 12 11 L 7.5 15.5 Z"/></g></svg>');
+}
+.ikon.ngiwo {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path style=" fill:%23bbb;" d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"></path></svg>');
+}
+.ikon.keyboard {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1"><path d="M20 5H4c-1.1 0-1.99.9-1.99 2L2 17c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-9 3h2v2h-2V8zm0 3h2v2h-2v-2zM8 8h2v2H8V8zm0 3h2v2H8v-2zm-1 2H5v-2h2v2zm0-3H5V8h2v2zm9 7H8v-2h8v2zm0-4h-2v-2h2v2zm0-3h-2V8h2v2zm3 3h-2v-2h2v2zm0-3h-2V8h2v2z"/></g></svg>')
+}
+.ikon.copy {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" height="48" width="48"><path d="M9 43.95q-1.2 0-2.1-.9-.9-.9-.9-2.1V10.8h3v30.15h23.7v3Zm6-6q-1.2 0-2.1-.9-.9-.9-.9-2.1v-28q0-1.2.9-2.1.9-.9 2.1-.9h22q1.2 0 2.1.9.9.9.9 2.1v28q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h22v-28H15v28Zm0 0v-28 28Z"/></svg>')
+}
+.ikon.img {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>')
+}
+.ikon.folder {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 48 48" width="100%" height="100%"  version="1.1"><g id="surface1"><path style=" fill:%23bbb;" d="M 38 12 L 22 12 L 18 8 L 8 8 C 5.800781 8 4 9.800781 4 12 L 4 36 C 4 38.199219 5.800781 40 8 40 L 39 40 C 40.699219 40 42 38.699219 42 37 L 42 16 C 42 13.800781 40.199219 12 38 12 Z "></path><path style=" fill:%23bbb;" d="M 42.199219 18 L 15.300781 18 C 13.398438 18 11.699219 19.398438 11.398438 21.300781 L 8 40 L 39.699219 40 C 41.601563 40 43.300781 38.601563 43.601563 36.699219 L 46.101563 22.699219 C 46.601563 20.300781 44.699219 18 42.199219 18 Z "></path></g></svg>')
+}
+.ikon.folderWarna {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 48 48" width="100%" height="100%"  version="1.1"><g id="surface1"><path style=" fill:%23bbb;" d="M 38 12 L 22 12 L 18 8 L 8 8 C 5.800781 8 4 9.800781 4 12 L 4 36 C 4 38.199219 5.800781 40 8 40 L 39 40 C 40.699219 40 42 38.699219 42 37 L 42 16 C 42 13.800781 40.199219 12 38 12 Z "></path><path style=" fill:%23bbb;" d="M 42.199219 18 L 15.300781 18 C 13.398438 18 11.699219 19.398438 11.398438 21.300781 L 8 40 L 39.699219 40 C 41.601563 40 43.300781 38.601563 43.601563 36.699219 L 46.101563 22.699219 C 46.601563 20.300781 44.699219 18 42.199219 18 Z "></path></g></svg>')
+}
+.ikon.folders {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 30 30" width="100%" height="100%"  version="1.1"><g id="surface1"><path fill="%23b76e03" d="M 6 3 L 6 29 L 26 29 L 26 15.4375 L 27.71875 13.71875 L 28 13.40625 L 28 3 Z M 8 5 L 22 5 L 22 13.40625 L 22.28125 13.71875 L 24 15.4375 L 24 27 L 8 27 Z M 24 5 L 26 5 L 26 12.5625 L 25 13.5625 L 24 12.5625 Z "></path></g></svg>')
+}
+.ikon.folderBaru {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 30 30" width="100%" height="100%"  version="1.1"><g id="surface1"><path fill="%23bbb" d="M20 6h-8l-2-2H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-1 8h-3v3h-2v-3h-3v-2h3V9h2v3h3v2z"/></g></svg>')
+}
+.ikon.folderBuka {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 48 48" width="100%" height="100%"  version="1.1"><g id="surface1"><path style=" fill:%23b76e03;" d="M 38 12 L 22 12 L 18 8 L 8 8 C 5.800781 8 4 9.800781 4 12 L 4 36 C 4 38.199219 5.800781 40 8 40 L 39 40 C 40.699219 40 42 38.699219 42 37 L 42 16 C 42 13.800781 40.199219 12 38 12 Z "></path><path style=" fill:%23FFCA28;" d="M 42.199219 18 L 15.300781 18 C 13.398438 18 11.699219 19.398438 11.398438 21.300781 L 8 40 L 39.699219 40 C 41.601563 40 43.300781 38.601563 43.601563 36.699219 L 46.101563 22.699219 C 46.601563 20.300781 44.699219 18 42.199219 18 Z "></path></g></svg>')
+}
+.ikon.folderTutup {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 48 48" width="100%" height="100%"  version="1.1"><g id="surface1"><path style=" fill:%23FFA000;" d="M 40 12 L 22 12 L 18 8 L 8 8 C 5.800781 8 4 9.800781 4 12 L 4 20 L 44 20 L 44 16 C 44 13.800781 42.199219 12 40 12 Z "></path><path style=" fill:%23FFCA28;" d="M 40 12 L 8 12 C 5.800781 12 4 13.800781 4 16 L 4 36 C 4 38.199219 5.800781 40 8 40 L 40 40 C 42.199219 40 44 38.199219 44 36 L 44 16 C 44 13.800781 42.199219 12 40 12 Z "></path></g></svg>')
+}
+.ikon.tgl {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="%23bbb"><path style=" fill-rule:evenodd;" d="M 6 2 L 6 4 L 5 4 C 3.898438 4 3 4.898438 3 6 L 3 20 C 3 21.101563 3.898438 22 5 22 L 19 22 C 20.101563 22 21 21.101563 21 20 L 21 6 C 21 4.898438 20.101563 4 19 4 L 18 4 L 18 2 L 16 2 L 16 4 L 8 4 L 8 2 Z M 5 9 L 19 9 L 19 20 L 5 20 Z M 12 13 L 12 18 L 17 18 L 17 13 Z "></path></g></svg>')
+}
+.ikon.height {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="%23bbb"><polygon points="13,6.99 16,6.99 12,3 8,6.99 11,6.99 11,17.01 8,17.01 12,21 16,17.01 13,17.01"/></g></svg>')
+}
+.ikon.moreHoriz {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill=""><path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></g></svg>')
+}
+.ikon.menu {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="orange"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></g></svg>')
+}
+.modeSelect li.item::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="orange"><path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"></path><path d="M0 0h24v24H0z" fill="none"></path></g></svg>')
+}
+.ikon.checked,
+.modeSelect li.item.selected::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="orange"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path></g></svg>')
+}
+.ikon.double-checked{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="orange"><path d="M 7 18 L 1.5 12.5 L 3.051 10.949 L 7 14.887 L 15.349 6.538 L 16.9 8.1 Z M 10.3 15.8 L 12.5 18 L 21.3 9.2 L 19.5708 7.495 L 12.5 14.7 L 11.8796 14.0642"></path></g></svg>')
+}
+.ikon.checAll{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="%23bbb"><path d="M 10 14 L 3.95 7.95 L 5.6561 6.2439 L 10 10.5757 L 19.1839 1.3918 L 20.89 3.11 Z M 4.0996 14.8052 L 10 20.6 L 20.4368 10.1819 L 18.8 8.5 L 10 17.3 L 5.6 12.9 Z"></path></g></svg>')
+}
+.ikon.gridView {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23bbb"><g fill-rule="evenodd"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z"/></g></svg>')
+}
+.ikon.listView {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="%23bbb"><rect fill="none" height="24" width="24"/><path d="M3,14h4v-4H3V14z M3,19h4v-4H3V19z M3,9h4V5H3V9z M8,14h13v-4H8V14z M8,19h13v-4H8V19z M8,5v4h13V5H8z"/></svg>')
+}
+.ikon.list {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="black"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>')
+}
+.ikon.listCheckAll {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="white"><path d="M0 0h24v24H0z" fill="black"/><path d="M 0 0 L 24 24 M 2 4 L 2 7 L 14 7 L 14 4 Z M 15 4 L 17 7 L 22 2 L 17 5 Z M 2 12 L 2 15 L 14 15 L 14 12 Z M 15 12 L 17 15 L 22 10 L 17 13 Z M 2 19 L 2 22 L 14 22 L 14 19 Z M 15 19 L 17 22 L 22 18 L 17 20 Z"/></svg>')
+}
+.ikon.plus{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path d="M20 13h-7v7h-2v-7H4v-2h7V4h2v7h7v2z" fill="%23bbb"></path></svg>')
+}
+.ikon.plus-orange{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path d="M20 13h-7v7h-2v-7H4v-2h7V4h2v7h7v2z" fill="orange"></path></svg>')
+}
+.ikon.play{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" ><path d="M4 2 22 12 4 22Z"></path></g></svg>')
+}
+.ikon.addBefore{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="%23bbb"><path d="M0 0 24 24M11 6 15 10 15 7 20 7 20 16 22 16 22 5 15 5 15 2ZM2 12 18 12 18 21 2 21Z"></path></g></svg>')
+}
+.ikon.addAfter{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="%23bbb"><path d="M0 24 24 0M11 18 15 14 15 17 20 17 20 8 22 8 22 19 15 19 15 22ZM2 12 18 12 18 3 2 3Z"></path></g></svg>')
+}
+.ikon.minus {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1998/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1"  style=" fill:%23bbb"><rect x="4" y="8" width="14" height="2"/></g></svg>')
+}
+.ikon.labelBorder {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="%23bbb"><path d="M 16 5 L 15.6875 5.28125 L 4.28125 16.8125 L 3.59375 17.5 L 4.28125 18.21875 L 13.78125 27.71875 L 14.5 28.40625 L 15.1875 27.71875 L 26.71875 16.3125 L 27 16 L 27 5 Z M 16.84375 7 L 25 7 L 25 15.15625 L 14.5 25.59375 L 6.40625 17.5 Z M 22 9 C 21.449219 9 21 9.449219 21 10 C 21 10.550781 21.449219 11 22 11 C 22.550781 11 23 10.550781 23 10 C 23 9.449219 22.550781 9 22 9 Z "></path></g></svg>')
+}
+.ikon.segitiga {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1" fill="%23bbb"><path d="M0 0h24v24H0z" fill="none"/><path d="M8 5v14l11-7z"/></g></svg>')
+}
+
+.ikon.silang {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb"  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>')
+}
+.ikon.maximize{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" fill-rule= "evenodd"><path  fill="%23bbb" d="m5 5 14 0 0 14-14 0z m2 2 10 0 0 10-10 0z"/></svg>')
+}
+
+.ikon.silang-merah {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="red"  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>')
+}
+.ikon.centang {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 48 48" width="100%" height="100%"  version="1.1"><g id="surface1"><path fill="%23bbb"  d="M 40.601563 12.101563 L 17 35.699219 L 7.398438 26.101563 L 4.601563 29 L 17 41.300781 L 43.398438 14.898438 Z "></path>></g></svg>')
+}
+.ikon.centang2 {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb"  d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"></path></svg>')
+}
+.ikon.centang0 {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb"  d="m 17 2 l -10.6 10.6 l -4.2 -4.2 l -1.4 0.4 l 5.6 6.6 l 12 -12 z z m -3 14 l 1 -1 l 3 3 l 3 -3 l 1 1 l -3 3 l 3 3 l -1 1 l -3 -3 l -3 3 l -1 -1 l 3 -3 z"></path></svg>')
+}
+
+.ikon.sort {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0z" /><path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"/></svg>')
+}
+.ikon.palette {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb" d="M14 23A1 1 0 0113 2 1 1 0 0115 19 1 1 0 0014 20 1 1 0 0114 23M7 9A1 1 0 007 13 1 1 0 007 9ZM10 5A1 1 0 0012 9 1 1 0 0010 5ZM17 5A1 1 0 0016 9 1 1 0 0017 5M20 9A1 1 0 0020 12 1 1 0 0020 9Z" /></svg>')
+}
+.ikon.colorPallete {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path  fill="%23bbb" d="M14 19A1 1 0 0012 1 1 1 0 0012 23 1 1 0 0012 19ZM6 14A1 1 0 016 11 1 1 0 016 14ZM9 9A1 1 0 019 6 1 1 0 019 9M14 8A1 1 0 0114 5 1 1 0 0114 8M17 12A1 1 0 0117 9 1 1 0 0117 12M12 21A1 1 0 0112 3 1 1 0 0113 18L10 18Z"/></svg>')
+}
+.ikon.addToPallete {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="M0 0 24 24M4 12 11 5 14 5 7 12ZM7 12 8 11 22 11 22 13 8 13ZM7 12 14 19 11 19 4 12Z"/></svg>')
+}
+.ikon.unknown {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1"><circle cx="13" cy="13" r="8" fill="%23bbb" stroke-width="2"/></g></svg>')
+}
+.ikon.tool.blank {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g id="surface1"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d=" "></path></svg></g></svg>')
+}
+.ikon.kd{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M1 2 6 2 6 6 2.5 12 6 18 6 22 1 22ZM3 12 9 2 14 2 8 12 14 22 9 22ZM15 2 18 2C22 2 23 4 23 7L23 17C23 20 22 22 18 22L15 22 12 17 16 17C17 17 18 16 18 15L18 9C18 8 17 7 16 7L15 7 15 16 12 16 12 7Z" fill="%23bbb"/></svg>')
+}
+.ikon.alignCenterY{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M24 13V11H0V13ZM10 18V6H4V18ZM20 22V2H14V22Z" fill="%23bbb"/></svg>')
+}
+.ikon.alignCenterX,.ikon.alignCenter{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M13 0H11V24H13ZM18 14H6V20H18ZM22 4H2V10H22Z" fill="%23bbb"/></svg>')
+}.ikon.alignCenterPV{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M13 3H11V21H13ZM18 14H6V19H18ZM16 5H8V10H16ZM2 1 20 1 22 3 22 24 4 24 2 22 2 2 3 2 3 22 20 22 20 2 2 2Z" fill="%23bbb"/></svg>')
+}.ikon.alignCenterPH{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M19 13V11H4V13ZM9 17V7H5V17ZM18 19V5H13V19ZM2 1 20 1 22 3 22 24 4 24 2 22 2 2 3 2 3 22 20 22 20 2 2 2Z" fill="%23bbb"/></svg>')
+}
+.ikon.alignCenterP{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M14 3H12V21H14ZM19 10H6V14H19ZM3 1 22 1 22 24 3 24 3 2 4 2 4 23 21 23 21 2 3 2Z" fill="%23bbb"/></svg>')
+}
+.ikon.alignLeft{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M2 22H4V2H2ZM5 10H15V4H5ZM5 20H22V14H5Z" fill="%23bbb"/></svg>')
+}
+.ikon.alignRight{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M22 2H20V22H22ZM19 4H9V10H19ZM19 13H2V19H19Z" fill="%23bbb"/></svg>')
+}
+.ikon.alignTop{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M2 2V4H22V2ZM4 5V15H10V5ZM13 5V22H19V5Z" fill="%23bbb"/></svg>')
+}
+.ikon.alignBottom{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M2 20V22H22V20ZM4 9V19H10V9ZM13 2V19H19V2Z" fill="%23bbb"/></svg>')
+}
+.ikon.distribute{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 24 24M2 6 2 12 7 12 7 6ZM8 6 8 15 12 15 12 6ZM14 6 14 12 19 12 19 6ZM21 6 21 17 23 17 23 6Z" fill="%23bbb"/></svg>')
+}.ikon.distributeH{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 24 24M2 6 2 12 7 12 7 6ZM8 6 8 15 12 15 12 6ZM14 6 14 12 19 12 19 6ZM21 6 21 17 23 17 23 6Z" fill="%23bbb"/></svg>')
+}.ikon.distributeV{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M6 2 12 2 12 7 6 7ZM6 8 15 8 15 12 6 12ZM6 14 12 14 12 19 6 19ZM6 21 17 21 17 23 6 23Z" fill="%23bbb"/></svg>')
+}
+
+.ikon.pageLayer{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M5 2V22H18V8L13 2ZM13 3 17 8H13Z" stroke-width="1px" stroke="black" fill="none"/></svg>')
+}
+.ikon.file{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M5 2V22H18V8L13 2ZM13 3 17 8H13Z" fill="%23bbb"/></svg>')
+}
+.ikon.fileText{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0H24V24H0ZM5 2V22H18V19H7V12H18V8L13 2ZM13 3 17 8H13ZM9 14V18H10V14H11V13H8V14ZM12 13V18H14V17H13V16H14V15H13V14H14V13ZM15 13 16.242 15.422 15 18 16 18 17 16 18 18 19 18 17.865 15.343 19 13 18 13 17 15 16 13ZM21 14V18H22V14H23V13H20V14Z" fill="%23bbb"/></svg>')
+}.ikon.fileFolder{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23FFA000" d="M4 2V21H20V13L18 10V2Z"/><path fill="%23ffd400" d="M4 2V21L16 23V5Z"/></svg>')
+}
+.ikon.fileListcalc {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 48 48" width="100%" height="100%"  version="1.1"><g id="surface1"><path style=" fill:%23bbb;" d="M 40 45 L 8 45 L 8 3 L 30 3 L 40 13 Z "></path><path style=" fill:%23eee;" d="M 38.5 14 L 29 14 L 29 4.5 Z "></path><path style=" fill:%231976D2;" d="M 12 21 L 29 21 L 29 23 L 12 23 Z M 31 21 L 37 21 L 37 23 L 31 23 Z M 12 25 L 29 25 L 29 27 L 12 27 Z M 31 25 L 37 25 L 37 27 L 31 27 Z M 12 29 L 29 29 L 29 31 L 12 31 Z M 31 29 L 37 29 L 37 31 L 31 31 Z"></path></g></svg>')
+}
+.ikon.fileLirik {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 48 48" width="100%" height="100%"  version="1.1"><g id="surface1"><path style=" fill:%23bbb;" d="M 40 45 L 8 45 L 8 3 L 30 3 L 40 13 Z "/><path style=" fill:%23eee;" d="M 38.5 14 L 29 14 L 29 4.5 Z "/><path  style="fill: black;display: none;" d="M 15 10 L 26 8 L 26 19  S 26 23 23 22 S 22 17 25 18 L 25 11  L 16 13 L 16 20 S 16 23 13 23 S 11 18  15 19 Z"/><path style="fill: %23bbb;transform: matrix(1, 0, 0, 1, 2, -1);" d="M 12 29 L 29 29 L 29 28 L 12 28 Z M 12 25 L 29 25 L 29 24 L 12 24 Z M 12 27 L 29 27 L 29 26 L 12 26 Z M 15 36 L 31 36 L 31 35 L 15 35 Z M 15 32 L 31 32 L 31 31 L 15 31 Z M 15 34 L 31 34 L 31 33 L 15 33 M 12 38 L 28 38 L 28 39 L 12 39 Z M 12 41 L 28 41 L 28 40 L 12 40 Z M 12 43 L 28 43 L 28 42 L 12 42 Z"/><path d="M 20 31 L 18 30 L 23.5 16 L 29.5 20 Z M 24 15 C 25 9 30 10 30 10 C 33 11.5 34 13 33.5 15 C 33 17 31 19 30 19 Z M 18 30.5 L 19.5 31.5 S 15 35 23 35 S 35 38 25 40 S 39 37  26 36 S 18 34 18 31 Z"/></g></svg>')
+}
+.ikon.filePNG {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M2 1V24H18L18 18 6 18 6 9 18 9V6L12 1ZM12 2 17 6H12ZM8 17 9 17 9 11 11 11 11 13 9 13 9 14 11 14 12 13 12 11 11 10 8 10ZM13 17 13 10 14 10 17 15 17 10 18 10 18 17 17 17 14 12 14 17ZM22 15 21 15 21 13 24 13 24 16 23 17 20 17 19 16 19 11 20 10 23 10 24 11 23 12 22 11 21 11 20 12 20 15 21 16 22 16 23 15 23 14 22 14Z"/></svg>')
+} 
+.ikon.fileSVG {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M2 1V24H18L18 18 5 18 5 9 18 9V6L13 1ZM13 2 17 6H13ZM6 16 7 17 10 17 11 16 11 14 7 12 8 11 9 11 10 12 11 11 10 10 7 10 6 11 6 13 10 15 9 16 8 16 7 15ZM12 10 14 17 16 17 18 10 17 10 15 15 13 10 12 10M22 15 21 15 21 13 24 13 24 16 23 17 20 17 19 16 19 11 20 10 23 10 24 11 23 12 22 11 21 11 20 12 20 15 21 16 22 16 23 15 23 14 22 14Z"/></svg>')
+} 
+
+.ikon.shape {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="m6 6 7 18c0-9 2-11 11-11z"/><path fill="%23bbb" d="M6 11A1 1 0 006 2 1 1 0 006 11M6 10A1 1 0 116 3 1 1 0 116 10"/></svg>')
+}
+.ikon.pClipTo{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M6 11A1 1 0 006 0 1 1 0 006 11ZM10 10 10 24 24 24 24 10ZM11 11 23 11 23 23 11 23ZM1 12A7 6 0 006 21L6 24 11 19 6 14 6 18A6 6 0 011 12M20 12A1 1 0 0112 19L12 12Z" fill="%23bbb"/></svg>')
+}.ikon.pClipEdit{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M2 13 5 15 14 2 11 0ZM10 10 10 24 24 24 24 10ZM11 11 23 11 23 23 11 23ZM20 12A1 1 0 0112 19L12 12ZM2 13.6 2.1 15.9 4.4 15.4Z" fill="%23bbb"/></svg>')
+}.ikon.pClipLock{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 13 9 13 9 7 0 7ZM10 10 10 24 24 24 24 10ZM11 11 23 11 23 23 11 23ZM20 12A1 1 0 0112 19L12 12ZM8 5A1 1 0 001 5L1 7 2 7 2 5A1 1 0 017 5L7 7 8 7Z" fill="%23bbb"/></svg>')
+}.ikon.pClipExtract{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M4 8A1 1 0 004 0 1 1 0 004 8ZM10 10 10 24 24 24 24 10ZM11 11 23 11 23 23 11 23ZM21 10A7 6 0 0013 2L13 0 9 4 13 9 13 6A6 6 0 0121 10M20 12A1 1 0 0112 19L12 12Z" fill="%23bbb"/></svg>')
+}.ikon.pClipEditFinish{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 3 5 14 20 0 5 8ZM10 10 10 24 24 24 24 10ZM11 11 23 11 23 23 11 23ZM20 12A1 1 0 0112 19L12 12Z" fill="%23bbb"/></svg>')
+}
+.ikon.page{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M3 5 3 23 17 23 17 5ZM4 1 3 0 3 4 4 2 16 2 17 4 17 0 16 1ZM18 4 20 5 20 22 18 23 23 23 21 22 21 5 23 4 23 4Z" fill="%23bbb"/></svg>')
+}
+.ikon.pageShow{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M3 5 3 23 17 23 17 5ZM4 1 3 0 3 4 4 2 16 2 17 4 17 0 16 1ZM18 4 20 5 20 22 18 23 23 23 21 22 21 5 23 4 23 4Z" fill="%23bbb"/><path d="M 7 15 C 9 14 11 12 13 12 C 15 12 17 14 19 15 C 17 16 15 18 13 18 C 11 18 9 16 7 15 Z M 13 13 A 1 1 0 0 0 13 17 A 1 1 0 0 0 13 13 Z" fill="%23000"/></svg>')
+}
+.ikon.gridLine{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M1 3 1 5 23 5 23 3ZM1 9 1 10 23 10 23 9ZM1 14 1 15 23 15 23 14ZM1 19 1 21 23 21 23 19ZM3 1 3 23 5 23 5 1ZM10 1 10 23 11 23 11 1ZM14 1 14 23 15 23 15 1ZM20 1 20 23 22 23 22 1Z" fill="%23bbb"/></svg>')
+}
+.ikon.orderTopOfLayer{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 0 11 4 11 4 10 1 10 1 1 11 1 11 4 12 4 12 0ZM5 5 5 18 19 18 19 5ZM12 19 12 24 24 24 24 12 20 12 20 13 23 13 23 23 13 23 13 19" fill="%23bbb"/></svg>')
+}
+.ikon.orderBackOfLayer{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 0 11 10 11 9 10 1 10 1 1 9 1 9 10 10 11 10 0ZM10 11 4 11 4 20 12 20 12 13 20 13 20 3 10 3ZM12 13 12 24 24 24 24 13 12 13 13 14 23 14 23 23 13 23 13 14" fill="%23bbb"/></svg>')
+}
+.ikon.orderTopOfOne{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 0 16 16 16 16 0ZM16 9 16 16 9 16 9 24 24 24 24 9ZM10 16 16 16 16 10 23 10 23 23 10 23Z" fill="%23bbb"/></svg>')
+}
+.ikon.orderBackOfOne{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 0 16 7 16 7 7 16 7 16 0ZM8 8 8 24 24 24 24 8ZM9 9 23 9 23 23 9 23Z" fill="%23bbb"/></svg>')
+}
+.ikon.orderBackOf{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 0 16 5 16 5 5 16 5 16 0ZM6 6 6 24 24 24 24 6ZM7 7 23 7 23 23 7 23ZM10 8 10 19 12.75 16.509 16 22 19 20 15.619 14.828 20 14Z" fill="%23bbb"/></svg>')
+}
+.ikon.orderTopOf{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 0 18 18 18 18 0ZM6 18 6 24 24 24 24 6 18 6 18 7 23 7 23 23 7 23 7 18ZM2 1 11 7 7 8 10 13 8 14 5 9 2 12Z" fill="%23bbb"/></svg>')
+}
+.ikon.orderReverse{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 0 10 10 10 10 0ZM13 13 13 24 24 24 24 13ZM1 12A7 6 0 006 21L6 24 11 19 6 14 6 18A6 6 0 011 12M22 12A7 6 0 0016 3L16 0 11 5 16 10 16 6A6 6 0 0122 12" fill="%23bbb"/></svg>')
+}
+.ikon.group{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0H2V2H0ZM0 11H2V13H0ZM0 22H2V24H0ZM11 0H13V2H11ZM11 22H13V24H11ZM22 0H24V2H22ZM22 11H24V13H22ZM22 22H24V24H22ZM3 3H15V15H3ZM8 16V21H21V10H16V16Z" fill="%23bbb"/></svg>')
+}
+.ikon.unGroup{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0ZM0 9H8V17H0ZM10 0H19V8H10ZM10 23 23 9 24 10 11 24ZM23 24 24 23 11 10 10 11 23 24" fill="%23bbb"/></svg>')
+}
+.ikon.unGroupAll{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0H7V7H0ZM0 11H7V17H0ZM10 0H19V8H10ZM10 23 23 9 24 10 11 24ZM23 24 24 23 11 10 10 11 23 24" fill="%23bbb"/></svg>')
+}
+.ikon.pan{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M7 20H16L18 14V3H16V8 8H15V2H13V8H12V2H10V8H9V3H7V11L6 12 5 10 4 12 4 14 5 18Z" fill="%23bbb"/></svg>')
+}
+.ikon.zoom{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M17 16A1 1 0 007 2 1 1 0 0017 16ZM8 4A1 1 0 0116 14 1 1 0 018 4ZM6 16 2 21 4 23 8 17Zm2-11V7H12L8 13 16 13 16 11 12 11 16 5Z" fill="%23bbb"/></svg>')
+}
+.ikon.zoomPlus{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M17 16A1 1 0 007 2 1 1 0 0017 16ZM8 4A1 1 0 0116 14 1 1 0 018 4ZM6 16 2 21 4 23 8 17ZM13 10V14H11V10H7V8H11V4H13V8H17V10Z" fill="%23bbb"/></svg>')
+}.ikon.zoomMinus{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M17 16A1 1 0 007 2 1 1 0 0017 16ZM8 4A1 1 0 0116 14 1 1 0 018 4ZM6 16 2 21 4 23 8 17ZM13 10H7V8H17V10Z" fill="%23bbb"/></svg>')
+}
+.ikon.zoomShoot{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M20 17A1 1 0 009 2 1 1 0 0020 17ZM10 4A1 1 0 0119 15 1 1 0 0110 4ZM8 16 4 21 6 23 10 18ZM10 4H19V14H10V5H11V13H18V5H10Z" fill="%23bbb"/></svg>')
+}
+.ikon.pen{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M21 2 6 8 5 14 10 19 17 17 21 4 14 11 13 10ZM9 11A1 1 0 1113 15 1 1 0 119 11M10 21 3 14 1 16 8 23Z" fill="%23bbb"/></svg>')
+}
+
+
+.ikon.templateObject{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M0 0 10 0 12 2 24 2 24 24 0 24ZM15 9 17 9 17 6 3 6 3 17 5 17 5 8 15 8ZM21 22 21 5 9 22ZM19 20 19 10 11.909 20.021ZM14 13A1 1 0 008 22L9 21A1 1 0 0113 14Z" fill="%23bbb"/></svg>')
+}
+.ikon.weld{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M 0 0 L 0 16 L 8 16 L 8 8 L 16 8 L 16 0 Z M 8 8 L 8 24 L 24 24 L 24 8 Z " fill="%23bbb"/></svg>')
+}
+.ikon.warning{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"></path></svg>')
+}
+.ikon.kartu-nama{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M3.5 5V19C3.5 20.1 4.39 21 5.5 21H19.5C20.6 21 21.5 20.1 21.5 19V5C21.5 3.9 20.6 3 19.5 3H5.5C4.39 3 3.5 3.9 3.5 5ZM15.5 9C15.5 10.66 14.16 12 12.5 12C10.84 12 9.5 10.66 9.5 9C9.5 7.34 10.84 6 12.5 6C14.16 6 15.5 7.34 15.5 9ZM6.5 17C6.5 15 10.5 13.9 12.5 13.9C14.5 13.9 18.5 15 18.5 17V18H6.5V17Z"></path></svg>')
+}
+.ikon.trim{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M 24 24 L 24 8 L 18 8 L 18 18 L 8 18 L 8 24 Z" fill="%23bbb"/><path d="M 16 16 L 16 0 L -0 0 L 0 16 Z" fill="%23bbb"/></svg>')
+}
+.ikon.intersect{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M 24 24 L 24 5 L 5 5 L 5 24 Z M 19 20 L 19 0 L 0 0 L 0 20 Z Z M 18 19 L 1 19 L 1 1 L 18 1 Z M 23 23 L 6 23 L 6 6 L 23 6 Z" fill="%23bbb"/><path d="M 5 5 L 19 5 L 19 20 L 5 20 Z" fill="%23bbb"/></svg>')
+}
+.ikon.smartFill {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbbgray" d="M 2 4 L 12 1 L 15 11 L 5 14 Z M 3.8 4.7 L 8 7 L 13.3 10.3 L 11.1 2.6 Z M 6 24 L 20 24 L 20 16 L 6 16 Z M 19 17 L 19 23 L 7 23 L 7 17 Z M 24 21 L 24 12 L 11 12 L 11 21 Z M 23 20 L 12 20 L 12 13 L 23 13 L 23 20 M 14 9 L 14 17 L 12 17 L 12 20 L 19 20 L 19 17 L 16 17 Z"/><path fill="orange" d=" M 14 9 L 14 17 L 12 17 L 12 20 L 19 20 L 19 17 L 16 17 Z"/></svg>')
+}
+.fill {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb" d="m0 0m2 4 10-3 3 10-10 3zm1.8.7.896 3.126 8.604 2.474-2.2-7.7zm19.2 18.3-11 0 0-7 11 0 0 7m-8-12-1 8 0 1 4 0 0-1z"/></svg>')
+}
+.ikon.outline {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb" d="m12 0-6 15 2 4 9 0 2-4-6-13 0 8-1 2zm-1 15a1 1-45 113 0 1 1-45 11-3 0m5 5-7 0 0 3 7 0z"/></svg>')
+}
+.ikon.outline {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbb" d=" M 12 -0 L 5 16 L 8 21 L 12 21 A 1 1 0 0 1 11 16 L 11 6 L 12 2 L 13 6 L 13 16 A 1 1 0 0 1 12 21 L 16 21 L 19 16 Z M 7 24 L 17 24 L 17 22 L 7 22 Z"/></svg>')
+}
+.ikon.colorSetter {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><path fill="%23bbbgray" d="M11 24A1.2 1.2 90 0014.4 1.2 1.2 1.2 90 0011 24ZM11 22A1.2 1.2 90 0112 4 1.2 1.2 90 0111 22ZM15 13C15.12 12.16 15 12 15 11.8L16.32 10.96C16.32 10.84 16.44 10.72 16.32 10.48L15.12 8.44C15.12 8.2 14.88 8.08 14.76 8.2L13.32 8.92C13.08 8.56 12.6 8.44 12.24 8.32L12.12 6.76C12.12 6.52 12 6.4 11.76 6.4L9.36 6.4C9.12 6.4 9.12 6.52 9.12 6.76L8.88 8.2C8.52 8.44 8.04 8.56 7.8 8.8L6.36 8.2C6.24 8.08 6.12 8.2 6 8.32L4.8 10.36C4.68 10.6 4.68 10.84 4.92 10.84L6.12 11.8C6.12 12.64 6.12 12.76 6.12 13L4.92 13.96C4.8 13.96 4.68 14.08 4.8 14.32L6 16.36C6.12 16.6 6.24 16.72 6.36 16.6L7.8 15.88C8.04 16.24 8.52 16.36 8.88 16.48L9.12 18.16C9.12 18.28 9.12 18.4 9.36 18.4L11.76 18.4C12 18.4 12.12 18.28 12.12 18.16L12.24 16.48C12.72 16.36 13.08 16.24 13.32 15.88L14.76 16.6C14.88 16.72 15.12 16.6 15.12 16.48L16.32 14.44C16.32 14.32 16.32 14.08 16.32 13.96ZM10.56 14.8A.6.6 90 0110.56 10 .6.6 90 0110.56 14.8Z"/></svg>')
+}
+.ikon.snapMagnet {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M 4 10 L 4 15 C 4 20 7 23 11 23 L 13 23 C 17 23 20 20 20 15 L 20 10 L 15 10 L 15 15 C 15 17 14 18 12 18 L 12 18 C 10 18 9 17 9 15 L 9 10 Z M 9 8 L 9 3 L 4 3 L 4 8 Z M 20 8 L 20 3 L 15 3 L 15 8 Z"/></svg>')
+} 
+.ikon.camera {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M2 7 2 19C2 20 3 21 4 21L22 21C23 21 24 20 24 19L24 7C24 6 23 5 22 5L17 5 15 4 10 4 8 5 4 5C3 5 2 6 2 6ZM13 9A1 1 0 0113 18 1 1 0 0113 9M22 7 22 9 19 9 19 7Z"/></svg>')
+} 
+.ikon.importImage {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="m10 1a1 1 180 00-3 15l0 3 4-5-4-5 0 3a1 1 180 013-10zm12 5 0 16-9-1 0-14zm-4 7 3 8-7-1 0-3zm6 11 0-20-12 2 0 16zm-8-12a1 1 180 002-4 1 1 180 00-2 4z"/></svg>')
+} 
+.ikon.exPortImage {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M14 23A1 1 0 0017 8L17 5 13 10 17 15 17 12A1 1 0 0114 22ZM2 18 2 2 11 3V17ZM3 11 3 16 10 16 5 9ZM0 0 0 20 12 18V2ZM9 5A1 1 0 006 7 1 1 0 009 5Z"/></svg>')
+} 
+.ikon.imgSetting {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M19 11V8.4H16.6A7.8 7.8 90 0015.6 5.9L17.2 4.3 15.4 2.5 13.8 4.2A7.8 7.8 90 0011.3 2.8V.7H8.7V2.8A7.8 7.8 90 006.3 4L4.6 2.5 2.8 4.3 4.4 5.8A7.8 7.8 90 003.3 8.4H1V11H3.3A7.8 7.8 90 004.4 13.4L2.8 15.1 4.6 16.9 6.3 15.3A7.8 7.8 90 008.6 16.3V18.7H11.3V16.4A7.8 7.8 90 0013.7 15.3L15.4 16.9 17.2 15.1 15.3 13.5A7.8 7.8 90 0016.6 11.1ZM10 6A1 1 0 1110 13 1 1 0 1110 6Z"/></svg>')
+} 
+.ikon.redo {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M23 6 23 15 14 15 18 11C16 6 5 8 5 15L3 15C3 5 16 3 20 9Z"/></svg>')
+} 
+.ikon.undo {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M2 5 2 14 11 14 7 10C9 5 20 7 20 14L22 14C22 4 9 2 5 8Z"/></svg>')
+} 
+
+.tombSaveEdit .ikon,.ikon.simpan {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g><path fill="%23bbb" d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></g></svg>')
+}
+
+.ikon.simpan-orange {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24" width="100%" height="100%"  version="1.1"><g><path fill="orange" d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></g></svg>')
+}
+.ikon.kembali {
+  background-image: url('data:image/svg+xml;utf8,<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path  d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20v-2z" fill="black"></path></svg>')
+}
+.ikon.pick{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M5 2 5 20 10 16 14 23 18 21 14 14 20 12Z"/></svg>')
+}
+.ikon.polygram{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" fill-rule="evenodd" d="M12 0 20 24 0 10 24 10 4 24 12 0z"/></svg>')
+}
+.ikon.square,
+.ikon.kotak{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="m5 5 14 0 0 14-14 0z"/></svg>')
+}
+.ikon.freehand{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="m13 19 6.5-13.9 2.8 1.3-6.3 14.1zm-.1 3.9-.1-3.2 2.6 1.4zm7-18.6 1.2-2.3 2.6 1.4-1 2.4zm-18.9 9.8c8 0 10 0 10 2 0 2-9 0-9 4 0 3 6 3 10 3l0-1c-4 0-9 0-9-2 0-3 9-1 9-4 0-2-1-3-10.9-2.5"/></svg>')
+}
+.ikon.rectangle,
+.ikon.rect{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="m2 6 20 0 0 12-20 0z"/></svg>')
+}
+.ikon.circle {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="m12 3a1 1 0 000 17 1 1 0 000-17"/></svg>')
+}
+.ikon.ellipse,
+.ikon.oval,
+.ikon.lonjong {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="m12 4a1 .7 0 000 15A1 .7 0 0012 4"/></svg>')
+}
+.ikon.text {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" fill-rule="evenodd" d="M9 1 1 23 6 23 8 18 16 18 18 23 23 23 15 1 9 1M9 14 11 7 13 7 15 14 9 14"/></svg>')
+}
+.ikon.paragraph {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" fill-rule="evenodd" d="m5 1-4 11 2.5 0 1-2.5 4 0 1 2.5 2.5 0-4-11-3 0m0 6.5 1-3.5 1 0 1 3.5-3 0m9-4.5 0 3 9 0 0-3-9 0m0 5 0 3 9 0 0-3-9 0m9 5-21 0 0 3 21 0 0-3m0 5-21 0 0 3 21 0 0-3"/></svg>')
+}
+.ikon.laserFire {
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="M11 3 11 11 12 16 13 11 13 3 11 3M11 18 12 19 13 18 13 19 12 20 11 19 11 18M12 21 20 20 22 19 12 21M12 21 5 20 3 19 12 21M12 21 8 18 8 19 12 21 12 21 16 18 16 19 12 21"/></svg>')
+}
+.ikon.polygon {
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="M12 2 22 10 18 22 6 22 2 10 12 2"/></svg>')
+}
+.ikon.triangle {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="m2 20 10-18 10 18z"/></svg>')
+}
+.ikon.windowBottom {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="M2 2 22 2 22 22 2 22ZM4 4 4 20 5 20 5 13 19 13 19 20 20 20 20 4Z"/></svg>')
+}
+.ikon.windowRight {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="M2 22 2 2 22 2 22 22ZM4 20 20 20 20 19 13 19 13 5 20 5 20 4 4 4Z"/></svg>')
+}
+.ikon.segi3samasisi{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="m2 20 10-18 10 18z"/></svg>')
+}
+.ikon.segi3samakaki{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="M0 18 12 3 24 18ZM4 9 7 12 8 11 5 8ZM19 8 16 11 17 12 20 9Z"/></svg>')
+}
+.ikon.segi3siku {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="M2 20 2 1 18 20ZMM3 17 5 17 5 19 6 19 6 16 3 16 3 17"/></svg>')
+}
+.ikon.arrow{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="M4 1 18 15 23 10 23 23 10 23 15 18 1 4Z"/></svg>')
+}
+.ikon.cross {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path  fill="%23bbb" d="M10 1 14 1 14 10 22 10 22 14 14 14 14 23 10 23 10 14 2 14 2 10 10 10Z"/></svg>')
+}
+.ikon.line {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M5 21 3 19 19 3 21 5Z"/></svg>')
+}
+.ikon.arc {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="m12 3a1 1 0 000 17 "/></svg>')
+}
+.ikon.polyline {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M14 22 12 23 6 1 22 3 22 6 18 14 5 15 4 13 17 12 20 5 9 4 14 22"/></svg>')
+}
+.ikon.delete {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M5 6 5 20C5 22 6 23 8 23L16 23C18 23 19 22 19 20L19 6ZM7 8 9 8 9 21 7 19ZM11 8 13 8 13 21 11 21ZM17 19 15 21 15 8 17 8ZM3 4 3 6 21 6 21 4 16 4 14 2 10 2 8 4Z"/></svg>')
+}
+.ikon.more {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M12 1A1 1 0 0012 6 1 1 0 0012 1M12 9A1 1 0 0012 14 1 1 0 0012 9M12 17A1 1 0 0012 22 1 1 0 0012 17"/></svg>')
+}
+.ikon.more-black {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23000" d="M12 1A1 1 0 0012 6 1 1 0 0012 1M12 9A1 1 0 0012 14 1 1 0 0012 9M12 17A1 1 0 0012 22 1 1 0 0012 17"/></svg>')
+}
+.ikon.info {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M12 21A1 1 0 0012 4 1 1 0 0012 21ZM12 2A1 1 0 0112 23 1 1 0 0112 2ZM12 19A1 1 0 0012 16 1 1 0 0012 19ZM13 15 14 6C12 4 12 4 10 6L11 15Z"/></svg>')
+}
+.ikon.toCurve {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M12 22A1 1 0 0012 3 1 1 0 0012 22ZM12 2A1 1 0 0112 23 1 1 0 0112 2ZM10 24H14V20H10ZM20 14H24V10H20ZM10 5H14V1H10ZM0 14H4V10H0Z"/></svg>')
+}
+.ikon.star{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="m12 1 3 8 8 1-6 5 2 8-7-5-7 5 2-8-6-5 8-1 3-8"/></svg>')
+} 
+.ikon.mirrorVertical{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M24-0 0 24M12 1 12 3 11 3 11 1ZM12 5 12 7 11 7 11 5ZM12 9 12 11 11 11 11 9ZM12 13 12 15 11 15 11 13ZM12 17 12 19 11 19 11 17ZM12 21 12 23 11 23 11 21ZM14 3 23 3 23 12 19 12 19 20 14 20ZM21 5 16 5 16 18 17 18 17 10 21 10ZM9 3 9 20 4 20 4 12 1 12 1 3ZM7 5 7 18 6 18 6 10 3 10 3 5Z"/></svg>')
+}
+.ikon.mirrorHorizontal{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M0 0 24 24M1 12 3 12 3 13 1 13ZM5 12 7 12 7 13 5 13ZM9 12 11 12 11 13 9 13ZM13 12 15 12 15 13 13 13ZM17 12 19 12 19 13 17 13ZM21 12 23 12 23 13 21 13ZM3 10 3 1 12 1 12 5 20 5 20 10ZM5 3 5 8 18 8 18 7 10 7 10 3ZM3 15 20 15 20 20 12 20 12 23 3 23ZM5 17 18 17 18 18 10 18 10 21 5 21Z"/></svg>')
+} 
+.ikon.moveToTop{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M2 2 23 2 23 22 2 22ZM3 3 3 21 22 21 22 3ZM8 9 16 9 12 4ZM10 8 14 8 12 6Z"/></svg>')
+} 
+.ikon.moveToRight{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M22 2 22 23 2 23 2 2ZM21 3 3 3 3 22 21 22ZM15 8 15 16 20 12ZM16 10 16 14 18 12Z"/></svg>')
+} 
+
+.ikon.moveToBottom{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M22 22 1 22 1 2 22 2ZM21 21 21 3 2 3 2 21ZM16 15 8 15 12 20ZM14 16 10 16 12 18Z"/></svg>')
+} 
+
+.ikon.moveToLeft{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M2 22 2 1 22 1 22 22ZM3 21 21 21 21 2 3 2ZM9 16 9 8 4 12ZM8 14 8 10 6 12Z"/></svg>')
+} 
+
+
+.ikon.moveToCenter{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M2 2 23 2 23 22 2 22ZM3 3 3 21 22 21 22 3ZM8 8 16 8 16 15 8 15ZM10 10 14 10 14 13 10 13Z"/></svg>')
+} 
+
+.ikon.combine{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M0 0 0 16 8 16 8 24 24 24 24 8 16 8 16 0ZM8 15 8 8 15 8 15 15Z"/></svg>')
+} 
+.ikon.breakToApart{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M3 3 3 15.8 9.4 15.8 9.4 22.2 22.2 22.2 22.2 9.4 15.8 9.4 15.8 3ZM11 16 16 16 16 11 20 11 20 20 11 20ZM24 1 18 1 20 3 17 6 19 8 22 5 24 7ZM1 24 7 24 5 22 8 19 6 17 3 20 1 18Z"/></svg>')
+}
+.ikon.copying{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M4 0H17V17H4ZM18 7H22V24H9V18H18ZM6 2 6 10 8 8 11 13 12.75 11.509 10 7 13.381 6.172Z"/></svg>')
+} 
+.ikon.toCurve{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M12 22A1 1 0 0012 3 1 1 0 0012 22ZM12 2A1 1 0 0112 23 1 1 0 0112 2ZM10 24H14V20H10ZM20 14H24V10H20ZM10 5H14V1H10ZM0 14H4V10H0Z"/></svg>')
+} 
+.ikon.D3-rotate{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="%23bbb" d="M 7.5 21.5 C 4.3 19.9 1.9 16.8 1.6 13 H 0.1 C 0.6 19.2 5.7 24 12 24 l 0.7 -0 l -3.8 -3.8 l -1.3 1.3 z m 0.9 -6.5 c -0.2 0 -0.4 -0 -0.5 -0.1 c -0.2 -0.1 -0.3 -0.1 -0.4 -0.2 c -0.1 -0.1 -0.2 -0.2 -0.3 -0.4 c -0.1 -0.1 -0.1 -0.3 -0.1 -0.5 h -1.3 c 0 0.4 0.1 0.7 0.2 0.9 c 0.1 0.3 0.3 0.5 0.6 0.7 c 0.2 0.2 0.5 0.3 0.8 0.4 c 0.3 0.1 0.6 0.1 1 0.1 c 0.4 0 0.7 -0.1 1 -0.1 c 0.3 -0.1 0.6 -0.3 0.8 -0.4 s 0.4 -0.4 0.6 -0.7 c 0.1 -0.3 0.2 -0.6 0.2 -1 c 0 -0.2 -0 -0.4 -0.1 -0.6 c -0.1 -0.2 -0.1 -0.3 -0.2 -0.5 c -0.1 -0.2 -0.2 -0.3 -0.4 -0.4 c -0.2 -0.1 -0.4 -0.2 -0.6 -0.3 c 0.2 -0.1 0.4 -0.2 0.5 -0.3 c 0.1 -0.1 0.3 -0.3 0.4 -0.4 c 0.1 -0.1 0.2 -0.3 0.2 -0.5 c 0.1 -0.2 0.1 -0.3 0.1 -0.5 c 0 -0.4 -0.1 -0.7 -0.2 -1 c -0.1 -0.3 -0.3 -0.5 -0.5 -0.7 c -0.2 -0.2 -0.5 -0.3 -0.8 -0.4 C 9.1 8.1 8.8 8 8.4 8 c -0.4 0 -0.7 0.1 -1 0.2 c -0.3 0.1 -0.6 0.3 -0.8 0.5 c -0.2 0.2 -0.4 0.4 -0.5 0.7 c -0.1 0.3 -0.2 0.5 -0.2 0.8 h 1.3 c 0 -0.2 0 -0.3 0.1 -0.5 s 0.1 -0.3 0.3 -0.3 c 0.1 -0.1 0.2 -0.2 0.4 -0.2 c 0.1 -0.1 0.3 -0.1 0.5 -0.1 c 0.4 0 0.7 0.1 0.9 0.3 c 0.2 0.2 0.3 0.5 0.3 0.9 c 0 0.2 -0 0.3 -0.1 0.5 c -0.1 0.1 -0.1 0.3 -0.3 0.4 c -0.1 0.1 -0.3 0.2 -0.4 0.2 c -0.2 0.1 -0.4 0.1 -0.6 0.1 H 7.5 v 1 h 0.8 c 0.2 0 0.4 0 0.6 0.1 s 0.3 0.1 0.5 0.2 c 0.1 0.1 0.2 0.2 0.3 0.4 c 0.1 0.2 0.1 0.3 0.1 0.6 c 0 0.4 -0.1 0.7 -0.3 0.9 c -0.2 0.2 -0.6 0.3 -0.9 0.3 z m 8.6 -5.9 c -0.3 -0.3 -0.7 -0.6 -1.1 -0.8 c -0.4 -0.2 -0.9 -0.3 -1.5 -0.3 H 12 v 8 h 2.3 c 0.6 0 1.1 -0.1 1.5 -0.3 c 0.5 -0.2 0.8 -0.4 1.2 -0.8 c 0.3 -0.3 0.6 -0.7 0.7 -1.2 c 0.2 -0.5 0.3 -1 0.3 -1.6 v -0.4 c 0 -0.6 -0.1 -1.1 -0.3 -1.6 c -0.2 -0.5 -0.4 -0.9 -0.8 -1.2 z m -0.4 3.2 c 0 0.4 -0.1 0.8 -0.1 1.1 c -0.1 0.3 -0.2 0.6 -0.4 0.8 c -0.2 0.2 -0.4 0.4 -0.7 0.5 c -0.3 0.1 -0.6 0.2 -1 0.2 h -0.9 V 9.1 h 1 c 0.7 0 1.3 0.2 1.6 0.7 c 0.4 0.5 0.6 1.1 0.6 2 v 0.4 z M 12 0 l -0.7 0 l 3.8 3.8 l 1.3 -1.3 c 3.3 1.6 5.6 4.7 6 8.5 h 1.5 C 23.4 4.8 18.3 0 12 0 z"/></svg>')
+}
+.ikon.label{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" ><path fill="%23bbb" d="M 3 5 L 14 5 C 19 5 23 9 23 12 C 23 15 20 19 14 19 L 3 19 C 2 19 1 18 1 17 L 1 7 C 1 6 2 5 3 5 M 21 12 C 21 11 20 10 19 10 C 18 10 17 11 17 12 C 17 13 18 14 19 14 C 20 14 21 13 21 12 Z"/></svg>')
+}
+.ikon.label-putih{
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" ><path fill="white" d="M 3 5 L 14 5 C 19 5 23 9 23 12 C 23 15 20 19 14 19 L 3 19 C 2 19 1 18 1 17 L 1 7 C 1 6 2 5 3 5 M 21 12 C 21 11 20 10 19 10 C 18 10 17 11 17 12 C 17 13 18 14 19 14 C 20 14 21 13 21 12 Z"/></svg>')
+}
+
+.ikon>svg {
+    display: block;
+    width: inherit;
+    height: inherit;
+    margin: -8px 0 0 -8px;
+	}
+	
